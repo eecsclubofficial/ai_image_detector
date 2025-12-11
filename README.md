@@ -1,4 +1,5 @@
-<div align = "centre">
+<div align="center">
+
 # AI Image Detector
 
 ### Detect whether an image is real or AI-generated using ML + Web technologies
@@ -30,9 +31,10 @@ This repository is part of the EECS Club Winter Projects, built by Members of EE
 ## 🏗️ System Architecture
 ```mermaid
 graph TB
-    A[Frontend - React + Tailwind] --> B[API Layer - FastAPI]
-    B --> C[Inference Serivce - CLIP Embeddings + Classifier (MLP/LogReg)]
-    C --> D[Model Store (Weightd +Art)]
+    A["Frontend - React + Tailwind"] --> B["API Layer - FastAPI"]
+    B --> C["Inference Service - CLIP Embeddings + Classifier (MLP / LogReg)"]
+    C --> D["Model Store (Weights + Artifacts)"]
+
 ```
 
 ### 📚 Tech Stack
