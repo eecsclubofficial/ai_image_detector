@@ -26,6 +26,8 @@ This project aims to build a full-stack web application that can classify whethe
 This repository is part of the EECS Club Winter Projects, built by Members of EECS Club.
 
 ---
+## 🤝 Contributers
+- [Ruvaifa](https://github.com/Ruvaifa)
 
 ## 🏗️ System Architecture
 ```mermaid
