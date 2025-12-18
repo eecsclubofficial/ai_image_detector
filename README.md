@@ -31,6 +31,7 @@ This repository is part of the EECS Club Winter Projects, built by Members of EE
 ## 🤝 Contributers
 
 - [Ruvaifa](https://github.com/Ruvaifa)
+- [Astha Mishra](https://github.com/marchastha27-cell)
 
 ## 🏗️ System Architecture
 
