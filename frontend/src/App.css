@@ -1,0 +1,40 @@
+/* Tailwind layers */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global reset */
+body {
+  @apply bg-neutral-950 text-neutral-200 font-sans antialiased;
+  margin: 0;
+  padding: 0;
+}
+
+/* Root container */
+#root {
+  @apply min-h-screen;
+}
+
+/* Subtle scrollbar (almost invisible) */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-neutral-700 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-neutral-600;
+}
+
+/* Inputs & buttons — minimal focus, no glow */
+input,
+button,
+textarea {
+  @apply focus:outline-none focus:ring-0;
+}
