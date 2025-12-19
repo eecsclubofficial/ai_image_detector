@@ -32,6 +32,7 @@ This repository is part of the EECS Club Winter Projects, built by Members of EE
 
 - [Ruvaifa](https://github.com/Ruvaifa)
 - [Astha Mishra](https://github.com/marchastha27-cell)
+- [Anurag Gupta](https://github.com/anuragGupta08)
 
 ## 🏗️ System Architecture
 
@@ -58,6 +59,7 @@ graph TB
 - 🔥 **Supabase** - Real-time database & auth
 - 🐎 **Uvicorn** - Fast, lightweight web server implementation for Python
 - 🐍 **Pydantic** - validation and settings management
+- 🖼️ ImageKit (image storage & CDN)
 - 🚄 **Railway** - For backend deployement
 
 ### ML/AI
@@ -76,6 +78,8 @@ graph TB
 │
 ├── backend/                # FastAPI server
 │   ├── main.py             # API entrypoint
+│   ├── core/               # Core config & settings
+│   │ └── config.py         # Environment & app settings
 │   ├── routers/            # API routes
 │   ├── models/             # Pydantic schemas
 │   └── services/           # Handles inference
@@ -178,6 +182,12 @@ git clone https://github.com/eecsclubofficial/ai_image_detector
 #Install Dependencies
 pip install -r requirements.txt
 ```
+
+Create a .env file (not committed):
+
+IMAGEKIT_PUBLIC_KEY=your_public_key
+IMAGEKIT_PRIVATE_KEY=your_private_key
+IMAGEKIT_URL_ENDPOINT=https://ik.imagekit.io/your_id
 
 ```bash
 #Run Backend
